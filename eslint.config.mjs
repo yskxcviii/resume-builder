@@ -36,6 +36,7 @@ const eslintConfig = defineConfig([
       'no-relative-import-paths': noRelativeImportPaths,
     },
     rules: {
+      'react/display-name': 'off',
       'no-relative-import-paths/no-relative-import-paths': [
         'error',
         { allowSameFolder: false, rootDir: 'src', prefix: '@' },

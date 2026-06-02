@@ -12,6 +12,7 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,css,md}\""
   },
   "dependencies": {
+    "@vscode/codicons": "^0.0.45",
     "next": "16.2.1",
     "normalize.css": "^8.0.1",
     "primeicons": "^7.0.0",
